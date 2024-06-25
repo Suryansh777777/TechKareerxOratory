@@ -1,9 +1,14 @@
 import React from "react";
+import Button from "../common/Button";
 
 const JobStats = () => {
   return (
-    <aside className="w-full md:w-64 bg-white shadow-md p-6">
-      <h2 className="text-lg font-semibold mb-4">Job Stats</h2>
+    <aside className="w-full md:w-96 bg-[#FCFCFC] shadow-md border-l-2 p-6">
+      <div className="flex justify-center  space-x-2 items-center">
+        <Button variant="outline">Delete job</Button>
+        <Button variant="primary">Edit job</Button>
+      </div>
+      <div className="mt-2 md:mt-4 space-y-2 md:space-y-0 md:space-x-2"></div>
       <ul className="space-y-4">
         <li className="flex justify-between">
           <span>Applicants</span>

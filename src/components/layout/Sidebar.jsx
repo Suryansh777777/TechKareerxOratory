@@ -2,9 +2,9 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <aside className="w-full md:w-64 bg-white shadow-md">
+    <header className="w-full  bg-white border-b-2 ">
       <nav className="p-4">
-        <ul className="flex md:flex-col space-x-2 md:space-x-0 md:space-y-2">
+        <ul className="flex md:flex-row space-x-2 md:space-x-0 md:space-y-2">
           <li>
             <a
               href="#"
@@ -39,7 +39,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </nav>
-    </aside>
+    </header>
   );
 };
 

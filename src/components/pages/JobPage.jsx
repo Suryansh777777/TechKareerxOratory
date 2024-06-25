@@ -10,10 +10,10 @@ const JobPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
+      <Sidebar />
       <div className="flex flex-1 flex-col md:flex-row">
-        <Sidebar />
-        <main className="flex-1 p-4 md:p-8">
-          <div className="bg-white rounded-lg shadow-md p-4 md:p-6">
+        <main className="flex-1 p-4 md:p-0">
+          <div className="bg-white rounded-lg shadow-md p-4 md:px-20">
             <JobPreview />
             <JobDetails />
             <CompanyInfo />

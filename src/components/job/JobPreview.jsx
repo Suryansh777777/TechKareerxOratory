@@ -14,17 +14,21 @@ const JobPreview = () => {
             <span>$300k-$400k</span>
           </div>
         </div>
-        <div className="mt-2 md:mt-0 space-y-2 md:space-y-0 md:space-x-2">
-          <Button variant="outline">Delete job</Button>
-          <Button variant="primary">Edit job</Button>
+      </div>
+
+      <div className="flex justify-between text-start text-sm">
+        <div className="flex flex-col gap-2 ">
+          <div className="font-medium">Skills Required </div>
+          <span className="border-2 font-medium" icon="figma">
+            Figma
+          </span>
+          <span className="border-2 font-medium" icon="illustrator">
+            Adobe Illustrator
+          </span>
+          <span className="border-2 font-medium" icon="xd">
+            Adobe XD
+          </span>
         </div>
-      </div>
-      <div className="flex flex-wrap gap-2 mb-4">
-        <Badge icon="figma">Figma</Badge>
-        <Badge icon="illustrator">Adobe Illustrator</Badge>
-        <Badge icon="xd">Adobe XD</Badge>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
         <div>
           <div className="font-medium">Preferred Language</div>
           <div>English</div>
