@@ -11,7 +11,7 @@ The TechKareer x Oratory initiative aims to identify talented frontend engineers
 This responsive job posting interface, built with React and Tailwind CSS, showcases a modern, user-friendly design for managing job listings. It demonstrates key features that could be valuable in a recruitment platform, including detailed job previews, company information, and applicant statistics.
 
 ## Demo
-Responsive job posting interface
+
 https://github.com/Suryansh777777/TechKareerxOratory/assets/95845265/0e69844e-4260-460d-b4d2-379e6a80d79b
 
 ## Features
