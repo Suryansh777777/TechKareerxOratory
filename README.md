@@ -14,6 +14,34 @@ This responsive job posting interface, built with React and Tailwind CSS, showca
 
 https://github.com/Suryansh777777/TechKareerxOratory/assets/95845265/0e69844e-4260-460d-b4d2-379e6a80d79b
 
+
+## Live Link 
+(https://tech-kareer-x-oratory.vercel.app/)
+
+## Project Structure
+
+```
+src/
+|-- assets/
+|   |-- fonts/
+|-- components/
+|   |-- job/
+|   |   |-- CompanyInfo.jsx
+|   |   |-- JobDetails.jsx
+|   |   |-- JobPreview.jsx
+|   |   |-- JobStats.jsx
+|   |-- layout/
+|   |   |-- Header.jsx
+|   |   |-- SubHeader.jsx
+|   |--  pages/
+|   |   |-- JobPage.jsx
+|   |-- Error.jsx
+|-- App.jsx
+|-- index.css
+|-- main.jsx
+
+```
+
 ## Features
 
 - Responsive design optimized for mobile devices
@@ -66,29 +94,7 @@ Key responsive features include:
 - Collapsible navigation menu for mobile devices
 - Adaptive image sizing and positioning
 
-## Project Structure
 
-```
-src/
-|-- assets/
-|   |-- fonts/
-|-- components/
-|   |-- job/
-|   |   |-- CompanyInfo.jsx
-|   |   |-- JobDetails.jsx
-|   |   |-- JobPreview.jsx
-|   |   |-- JobStats.jsx
-|   |-- layout/
-|   |   |-- Header.jsx
-|   |   |-- SubHeader.jsx
-|   |--  pages/
-|   |   |-- JobPage.jsx
-|   |-- Error.jsx
-|-- App.jsx
-|-- index.css
-|-- main.jsx
-
-```
 
 ## Future Enhancements
 
