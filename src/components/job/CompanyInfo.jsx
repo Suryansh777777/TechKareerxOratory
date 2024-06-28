@@ -1,5 +1,5 @@
 import React from "react";
-import Atlassian from "../../../public/images/AtlassianDesc.png";
+import Atlassian from "/images/AtlassianDesc.png";
 
 const CompanyInfo = () => {
   return (

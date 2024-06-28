@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Atlassian from "../../../public/images/AtlassianNav.png";
+import Atlassian from "/images/AtlassianNav.png";
 const JobsIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

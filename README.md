@@ -12,12 +12,12 @@ This responsive job posting interface, built with React and Tailwind CSS, showca
 
 ## Demo
 
-![Project Video](public/videos/FinalVideo.webm)
+![Project Video](/videos/FinalVideo.webm)
 
 ## Screenshots
 
-![Project Screenshot 1](public/images/FinalScreenShot.png)
-![Project Screenshot 2](public/images/FinalScreenshot2.png)
+![Project Screenshot 1](/images/FinalScreenShot.png)
+![Project Screenshot 2](/images/FinalScreenshot2.png)
 
 ## Features
 
