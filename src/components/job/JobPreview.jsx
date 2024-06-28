@@ -78,7 +78,7 @@ const JobPreview = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row sm:items-center text-gray-600 mt-4 text-base sm:text-lg pb-8 border-b border-gray-200">
+        <div className="flex flex-col sm:flex-row sm:items-center text-gray-600 mt-6 text-base sm:text-lg pb-8 border-b border-gray-200">
           <span className="flex items-center mb-2 sm:mb-0">
             <LocationIcon />
             <span className="ml-2">{jobData.location}</span>
