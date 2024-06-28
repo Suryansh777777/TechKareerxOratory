@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Atlassian from "../../../public/images/AtlassianNav.png";
 const JobsIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ const Header = () => {
     <>
       <header className="fixed top-0 left-0 right-0 bg-white z-50">
         <div className="mx-auto px-4 sm:px-6 lg:px-12 py-3 flex items-center border-b-2 justify-between">
-          <div className="text-xl text-[#DC4A2D] bg-[#E7E7E7] px-4 py-2 font-bold">
+          <div className="text-xl text-[#DC4A2D] bg-[#E7E7E7] px-4 py-2 font-semibold">
             Logo
           </div>
           <nav className="hidden md:block">
@@ -95,8 +95,8 @@ const Header = () => {
               <div className="text-black hover:text-gray-800">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
+                  width="26"
+                  height="26"
                   fill="none"
                   viewBox="0 0 32 32"
                 >
@@ -112,7 +112,7 @@ const Header = () => {
               <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-[#DC4A2D] ring-0 ring-white" />
             </div>
             <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold">
-              A
+              <img src={Atlassian} />
             </div>
             <button className="text-gray-600 hover:text-gray-800">
               <svg

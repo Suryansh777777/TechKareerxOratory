@@ -11,11 +11,11 @@ const SubHeader = () => {
   const [activeTab, setActiveTab] = React.useState("job-preview");
 
   return (
-    <header className="w-full  bg-white border-b-2">
+    <header className="w-full bg-white border-b-2 overflow-x-auto">
       <nav className="mx-auto px-4 sm:px-6 lg:px-28">
-        <ul className="flex overflow-x-auto ">
+        <ul className="flex whitespace-nowrap">
           {navItems.map((item) => (
-            <li key={item.id} className="flex-shrink-0 mr-8">
+            <li key={item.id} className="flex-shrink-0 mr-4 sm:mr-8 md:mr-14">
               <a
                 href={`#${item.id}`}
                 onClick={(e) => {
@@ -23,7 +23,7 @@ const SubHeader = () => {
                   setActiveTab(item.id);
                 }}
                 className={`
-                  block py-4 px-1 text-lg transition-colors duration-200 border-b-2
+                  block py-4 px-1 text-sm sm:text-base md:text-lg transition-colors duration-200 border-b-2
                   ${
                     activeTab === item.id
                       ? "text-[#DC4A2D] font-semibold border-red-700"
