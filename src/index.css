@@ -1,4 +1,10 @@
+/* src/index.css */
+@import './assets/fonts/fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Apply the font globally */
+body {
+  font-family: 'General Sans', sans-serif;
+}

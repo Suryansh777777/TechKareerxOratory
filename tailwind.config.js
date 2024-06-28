@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["General Sans", "ui-sans-serif", "system-ui"],
+      },
       animation: {
         marquee: "marquee 60s linear infinite",
       },

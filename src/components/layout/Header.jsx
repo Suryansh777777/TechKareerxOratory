@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const JobsIcon = () => (
   <svg
@@ -55,6 +55,13 @@ const PaymentsIcon = () => (
 );
 
 const Header = () => {
+  const [activeTab, setActiveTab] = useState("Jobs");
+
+  const navItems = [
+    { id: "Jobs", icon: <JobsIcon /> },
+    { id: "Messages", icon: <MessagesIcon /> },
+    { id: "Payments", icon: <PaymentsIcon /> },
+  ];
   return (
     <>
       <header className="fixed top-0 left-0 right-0 bg-white z-50">
@@ -64,26 +71,23 @@ const Header = () => {
           </div>
           <nav className="hidden md:block">
             <ul className="flex space-x-4 lg:space-x-14 border rounded-full px-2 py-2">
-              <li className="flex items-center">
-                <div className="flex items-center text-white font-medium border-2 px-4 py-2 rounded-full bg-[#DC4A2D] border-[#FCB4A5]">
-                  <JobsIcon />
-                  <a href="#" className="ml-2">
-                    Jobs
-                  </a>
-                </div>
-              </li>
-              <li className="flex items-center">
-                <MessagesIcon />
-                <a href="#" className="text-gray-500 ml-2">
-                  Messages
-                </a>
-              </li>
-              <li className="flex items-center">
-                <PaymentsIcon />
-                <a href="#" className="text-gray-500 ml-2 pr-2">
-                  Payments
-                </a>
-              </li>
+              {navItems.map((item) => (
+                <li key={item.id} className="flex items-center">
+                  <div
+                    className={`flex items-center font-medium px-4 py-2 rounded-full transition-colors duration-200 ${
+                      activeTab === item.id
+                        ? "text-white bg-[#DC4A2D] border-2 border-[#FCB4A5]"
+                        : "text-gray-500 hover:bg-gray-100"
+                    }`}
+                    onClick={() => setActiveTab(item.id)}
+                  >
+                    {item.icon}
+                    <a href="#" className="ml-2">
+                      {item.id}
+                    </a>
+                  </div>
+                </li>
+              ))}
             </ul>
           </nav>
           <div className="flex items-center space-x-4">
