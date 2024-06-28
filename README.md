@@ -12,12 +12,7 @@ This responsive job posting interface, built with React and Tailwind CSS, showca
 
 ## Demo
 
-![Project Video](public/videos/FinalVideo.webm)
-
-## Screenshots
-
-![Project Screenshot 1](public/images/FinalScreenShot.png)
-![Project Screenshot 2](public/images/FinalScreenshot2.png)
+![Project Video] https://github.com/Suryansh777777/TechKareerxOratory/assets/95845265/0e69844e-4260-460d-b4d2-379e6a80d79b****
 
 ## Features
 
