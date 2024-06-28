@@ -1,23 +1,8 @@
-# Job Posting Interface - TechKareer x Oratory Project
-
-![Project Screenshot](screenshot.png)
-
-## Table of Contents
-- [Project Context](#project-context)
-- [Description](#description)
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Responsive Design](#responsive-design)
-- [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
-- [Contact](#contact)
+#  TechKareer x Oratory Project
 
 ## Project Context
 
-This project is an assignment for a frontend engineering position at Oratory, a Venture Studio founded by Parik. Oratory is developing an upcoming product in the recruitment space, and this job posting interface serves as a demonstration of frontend skills relevant to their needs.
+This project is an assignment for a frontend engineer position at Oratory, a Venture Studio founded by Parik. Oratory is developing an upcoming product in the recruitment space, and this job posting interface serves as a demonstration of frontend skills relevant to their needs.
 
 The TechKareer x Oratory initiative aims to identify talented frontend engineers to contribute to innovative projects in the recruitment industry.
 
@@ -27,13 +12,16 @@ This responsive job posting interface, built with React and Tailwind CSS, showca
 
 ## Demo
 
-[Watch the Demo Video](link-to-your-demo-video)
+![Project Video](public/videos/FinalVideo.webm)
 
-*(Briefly describe what the demo video showcases, highlighting aspects relevant to Oratory's recruitment product)*
+## Screenshots
+
+![Project Screenshot 1](public/images/FinalScreenShot.png)
+![Project Screenshot 2](public/images/FinalScreenshot2.png)
 
 ## Features
 
-- Responsive design optimized for various devices
+- Responsive design optimized for mobile devices
 - Comprehensive job preview with key details
 - Detailed job description and requirements section
 - Integrated company information display
@@ -46,4 +34,84 @@ This responsive job posting interface, built with React and Tailwind CSS, showca
 - Tailwind CSS
 - JavaScript (ES6+)
 - HTML5
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/Suryansh777777/TechKareerxOratory.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd TechKareerxOratory
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+   ```
+   npm run dev
+   ```
+2. Open your browser and visit `http://localhost:3000` to view the application.
+
+## Responsive Design
+
+The interface is designed to be fully responsive, adapting seamlessly to various screen sizes:
+
+- Mobile: Optimized layout for small screens.
+- Desktop: Full-featured layout with side-by-side sections for optimal information display.
+
+Key responsive features include:
+- Flexible grid system using Tailwind CSS
+- Responsive typography that scales with screen size
+- Collapsible navigation menu for mobile devices
+- Adaptive image sizing and positioning
+
+## Project Structure
+
+```
+src/
+|-- assets/
+|   |-- fonts/
+|-- components/
+|   |-- job/
+|   |   |-- CompanyInfo.jsx
+|   |   |-- JobDetails.jsx
+|   |   |-- JobPreview.jsx
+|   |   |-- JobStats.jsx
+|   |-- layout/
+|   |   |-- Header.jsx
+|   |   |-- SubHeader.jsx
+|   |--  pages/
+|   |   |-- JobPage.jsx
+|   |-- Error.jsx
+|-- App.jsx
+|-- index.css
+|-- main.jsx
+
+```
+
+## Future Enhancements
+
+1. Implement user authentication and personalized job recommendations
+2. Add a search functionality with filters for job listings
+3. Integrate a messaging system for applicants and recruiters
+4. Develop an applicant tracking system (ATS) integration
+5. Implement data visualization for application statistics
+6. Add multi-language support for global recruitment
+
+## Contact
+
+For more information about this project, please contact:
+
+[Suryansh Chourasia]
+Email: [suryanshchourasia12@gmail.com]
+LinkedIn: [www.linkedin.com/in/suryansh777777]
+
+
+I welcome feedback and contributions to improve this job posting interface!
 
